@@ -38,25 +38,18 @@ Number of odd elements: 5
 
 ##### Functions:
 1. [`Swap Strings`](./src/swapStrings.java):  Swapping Two Strings without Using Any Third or Temporary Variable.    
-<b>Sample Input :</b> <br> <u>Original str1:</u> Hello </br>
-Original str2: World     
-<br> <b>Sample Output:</b> <br> <u>Swapped str1:</u> World </br>
-<u>Swapped str2:</u> Hello
+<b>Sample Input :</b> <br> <u>Original str1</u> : Hello </br>
+<u>Original str2</u> : World     
+<br> <b>Sample Output:</b> <br> <u>Swapped str1</u> : World </br>
+<u>Swapped str2</u> : Hello
 
 2. [`To Print Each Letter Twice`](./src/LetterTwice.java): This Program will print the each letter twice. 
 <br><b>Original String :</b> hello     
 <b>Output String :</b> hheelllloo
 </br>
 
-3. [`To Print Each Letter Nth`](./src/LetterNth.java): This Program will Print the String Letter By Letter with Nth Time. 
-<br><b>
-Sample Input :
-</b><br><u>Str1</u> : hello
- <br>
-<u>N=</u> : 3
-<b><br>Sample Output</br></b>
-hhheeellllllooo
- </br>
-</br>
-</br>
+3. [`To Print Each Letter Nth`](./src/LetterNth.java): This Program will Print the String Letter By Letter with Nth Time.	 
+<br><b>Sample Input :</b> <br> <u>Str1:</u> Hello </br>
+<u>N</u> : 3     
+<br> <b>Sample Output:</b> <br> hhheeellllllooo
 </details>
