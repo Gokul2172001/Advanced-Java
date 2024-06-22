@@ -1,4 +1,3 @@
-
 public class SumofDistintElemet {
 
 	public static void main(String[] args) {
@@ -6,7 +5,6 @@ public class SumofDistintElemet {
 		int[] num = { 5, 1, 8, 4, 9, 1, 5 };
 		System.out.println(DistinctElemet(num));
 	}
-
 	public static int DistinctElemet(int[] result) {
 //		result = 0;
 //		return result;
@@ -28,5 +26,4 @@ public class SumofDistintElemet {
 		}
 		return num;
 	}
-
 }
