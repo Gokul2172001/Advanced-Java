@@ -43,7 +43,7 @@ Number of odd elements: 5
 <br> <b>Sample Output:</b> <br> <u>Swapped str1</u> : World </br>
 <u>Swapped str2</u> : Hello
 
-2. [`To Print Each Letter Twice`](./src/LetterTwice.java): This Program will print the each letter twice. 
+2. [`To Print Each Letter Twice`](./src/LetterTwice.java): This Program will print the each and every letter twice in a single line. 
 <br><b>Original String :</b> hello     
 <b>Output String :</b> hheelllloo
 </br>
