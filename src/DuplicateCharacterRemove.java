@@ -5,6 +5,7 @@ public class DuplicateCharacterRemove {
 		String str = "Character";
 		Duplicate(str);
 	}
+	
 	static void Duplicate(String str) {
 		char[] arr = str.toCharArray();
 		for (int i = 0; i < arr.length; i++) {
@@ -14,3 +15,4 @@ public class DuplicateCharacterRemove {
 		}
 	}
 }
+
