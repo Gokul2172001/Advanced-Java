@@ -5,12 +5,14 @@ public class SumofDistintElemet {
 		int[] num = { 5, 1, 8, 4, 9, 1, 5 };
 		System.out.println(DistinctElemet(num));
 	}
+	
 	public static int DistinctElemet(int[] result) {
 //		result = 0;
 //		return result;
 //		int arr[] = new int[result] 
 		int num = 0;
 		boolean dis;
+		
 		for (int i = 0; i < result.length; i++) {
 //			System.out.println(result[i]);
 			dis = true;
@@ -20,6 +22,7 @@ public class SumofDistintElemet {
 					break;
 				}
 			}
+			
 			if (dis) {
 				num = num + result[i];
 			}
