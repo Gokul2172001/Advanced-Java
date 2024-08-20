@@ -4,52 +4,28 @@ public class AdjacentSwap {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String words = "No Loves";
+		String words = "I love my country";
 
-//		System.out.println(words);
-//		System.out.println(words.trim());
-		String[] word = words.split(" ");
+		String adjacent = Adjs(words);
 
-		for (int i = 0; i < word.length; i++) {
-//			System.out.println(word[i]);
-			Adjacent(word[i]);
-//			Adjs(word[i]);
-		}
-
-//		System.out.print(word);
+		System.out.println(adjacent);
 	}
 
-	public static void Adjacent(String str) {
-		char[] ch = str.toCharArray();
-		char[] vh = new char[ch.length];
-		int val = 0;
-		int div = ch.length / 2;
-		System.out.println(div);
-		if (ch.length != 1)
-			for (int i = 0; i < ch.length / 2; i++) {
-				vh[val] = ch[val + 1];
-				vh[val + 1] = ch[val];
-				val = val + 2;
+	public static String Adjs(String str) {
+		String[] ch1 = str.split(" ");
+		for (int i = 0; i < ch1.length; i++) {
+			char[] ch = ch1[i].toCharArray();
+			int j = 0;
+			int rem = ch1[i].length() % 2;
+			while ((j != ch1[i].length() - rem)) {
+				char temp = ch[j];
+				ch[j] = ch[j + 1];
+				ch[j + 1] = temp;
+				j = j + 2;
 			}
-		for (int i = 0; i < vh.length; i++) {
-			System.out.print(vh[i]);
+			ch1[i] = new String(ch);
 		}
-		if (ch.length % 2 == 1) {
-			System.out.print(ch[ch.length - 1]);
-		}
-//		return "";
-	}
-
-	public static void Adjs(String str) {
-		char[] ch = str.toCharArray();
-		int len = ch.length;
-		int rem = ch.length % 2;
-		System.out.print(rem);
-		char[] vh = new char[len];
-		while (len != rem) {
-			System.out.print(ch[]);
-		}
-
+		return String.join(" ", ch1);
 	}
 
 }
