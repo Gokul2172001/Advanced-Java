@@ -2,7 +2,6 @@
 public class AdjacentSwap {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String words = "I love my country";
 
@@ -12,11 +11,14 @@ public class AdjacentSwap {
 	}
 
 	public static String Adjs(String str) {
+		
 		String[] ch1 = str.split(" ");
 		for (int i = 0; i < ch1.length; i++) {
+			
 			char[] ch = ch1[i].toCharArray();
 			int j = 0;
 			int rem = ch1[i].length() % 2;
+			
 			while ((j != ch1[i].length() - rem)) {
 				char temp = ch[j];
 				ch[j] = ch[j + 1];
@@ -25,6 +27,7 @@ public class AdjacentSwap {
 			}
 			ch1[i] = new String(ch);
 		}
+		
 		return String.join(" ", ch1);
 	}
 
