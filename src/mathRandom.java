@@ -18,6 +18,10 @@ public class mathRandom {
 		System.out.println(ran * (max - min));
 		System.out.println((int) ran * (max - min));
 		System.out.println(min + (int) (ran * (max - min)));
+		
+		public int  random(Int num) {
+			
+		}
 
 	}
 
