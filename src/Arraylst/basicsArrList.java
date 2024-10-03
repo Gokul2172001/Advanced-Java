@@ -90,6 +90,29 @@ public class basicsArrList {
 		Collections.reverse(list1);
 
 		System.out.println("After reversing" + list1);
+
+//		ArrayList<String> list1 = list1.subList(0, 3);
+
+		ArrayList<String> li1 = new ArrayList<String>();
+		ArrayList<String> li2 = new ArrayList<String>();
+
+		li1.add("Apple");
+		li1.add("Apple");
+		li1.add("Apple");
+		li1.add("Apple");
+		li1.add("Apple");
+
+		li2.add("Apple");
+		li2.add("Apple");
+		li2.add("Apple");
+		li2.add("Apple");
+		li2.add("Apple");
+
+		ArrayList<String> li3 = new ArrayList<String>();
+
+		for (String e : li1) {
+
+		}
 	}
 
 }
