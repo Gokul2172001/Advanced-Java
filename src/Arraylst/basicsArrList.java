@@ -97,22 +97,22 @@ public class basicsArrList {
 		ArrayList<String> li2 = new ArrayList<String>();
 
 		li1.add("Apple");
-		li1.add("Apple");
-		li1.add("Apple");
-		li1.add("Apple");
-		li1.add("Apple");
+		li1.add("Bink");
+		li1.add("Carlone");
+		li1.add("Disc");
+		li1.add("Eagle");
 
-		li2.add("Apple");
-		li2.add("Apple");
-		li2.add("Apple");
-		li2.add("Apple");
-		li2.add("Apple");
+		li2.add("1");
+		li2.add("2");
+		li2.add("3");
+		li2.add("4");
+		li2.add("5");
 
-		ArrayList<String> li3 = new ArrayList<String>();
+//		List<String> li3 = new ArrayList<String>();
 
-		for (String e : li1) {
+		System.out.println("List of strings" + li1);
 
-		}
+		System.out.println("sublist of first 3" + li1.subList(0, 3));
 	}
 
 }
