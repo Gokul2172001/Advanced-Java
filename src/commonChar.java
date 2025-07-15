@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class commonChar {
 
-	static ArrayList arr = new ArrayList<String>();
+	public static ArrayList arr = new ArrayList<String>();
 
 //	System.out.println(arr);
 	public static void main(String[] args) {
@@ -13,6 +13,18 @@ public class commonChar {
 
 		}
 		System.out.println(arr);
+
+	}
+
+	public static void compare(char[] cha1, char[] cha2) {
+		for (int i = 0; i < cha1.length; i++) {
+			for (int j = 0; j < cha2.length; j++) {
+
+			}
+		}
+	}
+
+	public static void removeDuplicate(ArrayList arr) {
 
 	}
 
